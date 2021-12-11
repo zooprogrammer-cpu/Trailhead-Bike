@@ -5,6 +5,8 @@ public with sharing class AccountController {
                 FROM Account 
                 ORDER BY Name 
                 LIMIT 5];
+        //throw new AuraHandledException('Forced error');
+
     }
 }
 
